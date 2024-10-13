@@ -64,7 +64,7 @@ We found that reducing the number of layers in the LLM architectures did result 
 ## 4. Conclusion
 ....
 
-5. References
+## 5. References
 Aivin V. Solatorio, Olivier Dupriez: REaLTabFormer: Generating Realistic Relational and Tabular Data using Transformers. https://arxiv.org/abs/2302.02041
 Vadim Borisov, Kathrin Seßler, Tobias Leemann, Martin Pawelczyk, Gjergji Kasneci: Language Models are Realistic Tabular Data Generators. https://arxiv.org/abs/2210.06280
 
