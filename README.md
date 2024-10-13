@@ -9,22 +9,22 @@ The objective is to determine the most efficient model in generating synthetic d
 ### 2.1. Model Architectures
 The original implementations of Realtabformer and GReaT rely exclusively on GPT-2 with 6 or 12 layers. For this study, we re-engineered both models to be more flexible, allowing them to operate with a range of LLM architectures. The following models were used in our experiments:
 
-GPT-2: 6 and 12 layers <br>
-GPT-NeoX: 1 layer <br>
-GPT-Neo: 2, 4, 6, and 8 layers <br>
-GPT-J: 1 layer <br>
-GPT-BigCode: 6 and 12 layers <br>
-LLaMA: 1 and 2 layers <be>
+- GPT-2: 6 and 12 layers <br>
+- GPT-NeoX: 1 layer <br>
+- GPT-Neo: 2, 4, 6, and 8 layers <br>
+- GPT-J: 1 layer <br>
+- GPT-BigCode: 6 and 12 layers <br>
+- LLaMA: 1 and 2 layers <be>
 
 By employing various models and layer configurations, we aim to test not only the efficacy of different LLMs but also the impact of model complexity on synthetic data generation quality.
 
 ### 2.2. Datasets
 Four datasets were selected for the evaluation, representing different domains and complexity levels:
 
-Adult: A demographic dataset commonly used in classification tasks. '[Kaggle Linke](https://www.kaggle.com/datasets/wenruliu/adult-income-dataset)' <br>
-Customer Travel: Contains information on customer travel behaviors. '[Kaggle Linke](https://www.kaggle.com/datasets/tejashvi14/tour-travels-customer-churn-prediction)' <br>
-California Housing: A dataset with features related to housing prices. '[Kaggle Linke](https://www.kaggle.com/datasets/camnugent/california-housing-prices)' <br>
-Stroke Prediction: Medical records for stroke prediction. '[Kaggle Linke](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)'
+- Adult: A demographic dataset commonly used in classification tasks. '[Kaggle Linke](https://www.kaggle.com/datasets/wenruliu/adult-income-dataset)' <br>
+- Customer Travel: Contains information on customer travel behaviors. '[Kaggle Linke](https://www.kaggle.com/datasets/tejashvi14/tour-travels-customer-churn-prediction)' <br>
+- California Housing: A dataset with features related to housing prices. '[Kaggle Linke](https://www.kaggle.com/datasets/camnugent/california-housing-prices)' <br>
+- Stroke Prediction: Medical records for stroke prediction. '[Kaggle Linke](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)'
 
 Before feeding the models with these datasets, a thorough data cleaning process was applied. This involved handling missing values and removing inconsistencies. The datasets were then split into training and test sets to prevent data leakage in the evaluation process.
 
