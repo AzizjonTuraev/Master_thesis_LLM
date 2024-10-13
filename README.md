@@ -20,9 +20,9 @@ By employing various models and layer configurations, we aim to test not only th
 ### 2.2. Datasets
 Four datasets were selected for the evaluation, representing different domains and complexity levels:
 
-Adult: A demographic dataset commonly used in classification tasks. '[Kaggle Linke](https://www.kaggle.com/datasets/wenruliu/adult-income-dataset)'
-Customer Travel: Contains information on customer travel behaviors. '[Kaggle Linke](https://www.kaggle.com/datasets/tejashvi14/tour-travels-customer-churn-prediction)'
-California Housing: A dataset with features related to housing prices. '[Kaggle Linke](https://www.kaggle.com/datasets/camnugent/california-housing-prices)'
+Adult: A demographic dataset commonly used in classification tasks. '[Kaggle Linke](https://www.kaggle.com/datasets/wenruliu/adult-income-dataset)' <br>
+Customer Travel: Contains information on customer travel behaviors. '[Kaggle Linke](https://www.kaggle.com/datasets/tejashvi14/tour-travels-customer-churn-prediction)' <br>
+California Housing: A dataset with features related to housing prices. '[Kaggle Linke](https://www.kaggle.com/datasets/camnugent/california-housing-prices)' <br>
 Stroke Prediction: Medical records for stroke prediction. '[Kaggle Linke](https://www.kaggle.com/datasets/fedesoriano/stroke-prediction-dataset)'
 
 Before feeding the models with these datasets, a thorough data cleaning process was applied. This involved handling missing values and removing inconsistencies. The datasets were then split into training and test sets to prevent data leakage in the evaluation process.
