@@ -9,12 +9,13 @@ The objective is to determine the most efficient model in generating synthetic d
 ### 2.1. Model Architectures
 The original implementations of Realtabformer and GReaT rely exclusively on GPT-2 with 6 or 12 layers. For this study, we re-engineered both models to be more flexible, allowing them to operate with a range of LLM architectures. The following models were used in our experiments:
 
-GPT-2: 6 and 12 layers
-GPT-NeoX: 1 layer
-GPT-Neo: 2, 4, 6, and 8 layers
-GPT-J: 1 layer
-GPT-BigCode: 6 and 12 layers
-LLaMA: 1 and 2 layers
+GPT-2: 6 and 12 layers <br>
+GPT-NeoX: 1 layer <br>
+GPT-Neo: 2, 4, 6, and 8 layers <br>
+GPT-J: 1 layer <br>
+GPT-BigCode: 6 and 12 layers <br>
+LLaMA: 1 and 2 layers <be>
+
 By employing various models and layer configurations, we aim to test not only the efficacy of different LLMs but also the impact of model complexity on synthetic data generation quality.
 
 ### 2.2. Datasets
@@ -35,8 +36,8 @@ pip install -i https://test.pypi.org/simple/ generic-realtabformer==1.0.3136
 pip install -i https://test.pypi.org/simple/ generic-be-great==0.0.8
 ```
 
-The documentation of the generic Realtabformer: https://test.pypi.org/project/generic-realtabformer/
-The documentation of the generic GReaT: https://test.pypi.org/project/generic-be-great/
+The documentation of the generic Realtabformer: https://test.pypi.org/project/generic-realtabformer/ <br>
+The documentation of the generic GReaT: https://test.pypi.org/project/generic-be-great/ <br>
 To avoid conflicts during the installation of Realtabformer, the following dependencies should be installed beforehand:
 
 ```
