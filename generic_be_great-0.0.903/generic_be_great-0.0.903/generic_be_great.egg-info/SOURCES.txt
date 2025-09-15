@@ -1,0 +1,14 @@
+README.md
+setup.cfg
+setup.py
+generic_be_great/__init__.py
+generic_be_great/great.py
+generic_be_great/great_dataset.py
+generic_be_great/great_start.py
+generic_be_great/great_trainer.py
+generic_be_great/great_utils.py
+generic_be_great.egg-info/PKG-INFO
+generic_be_great.egg-info/SOURCES.txt
+generic_be_great.egg-info/dependency_links.txt
+generic_be_great.egg-info/requires.txt
+generic_be_great.egg-info/top_level.txt

@@ -1,0 +1,10 @@
+matplotlib
+catboost
+https://test.pypi.org/simple/ generic-be-great==0.0.9
+https://test.pypi.org/simple/ generic-realtabformer==1.0.4
+pip install datasets==2.18.0
+pip install torch==2.2.0
+pip install scikit-learn==1.4.1.post1
+pip install transformers==4.39.0
+pip install shapely>=2.0
+pip install accelerate==0.28.0

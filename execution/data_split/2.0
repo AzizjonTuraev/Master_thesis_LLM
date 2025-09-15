@@ -1,0 +1,7 @@
+Collecting shapely
+  Downloading shapely-2.1.1-cp311-cp311-win_amd64.whl.metadata (7.0 kB)
+Requirement already satisfied: numpy>=1.21 in c:\users\azizjon\anaconda3\envs\test\lib\site-packages (from shapely) (1.26.4)
+Downloading shapely-2.1.1-cp311-cp311-win_amd64.whl (1.7 MB)
+   ---------------------------------------- 0.0/1.7 MB ? eta -:--:--   ---------------------------------------- 0.0/1.7 MB ? eta -:--:--   ------ --------------------------------- 0.3/1.7 MB ? eta -:--:--   ------------------------ --------------- 1.0/1.7 MB 4.2 MB/s eta 0:00:01   ---------------------------------------- 1.7/1.7 MB 3.2 MB/s  0:00:00
+Installing collected packages: shapely
+Successfully installed shapely-2.1.1

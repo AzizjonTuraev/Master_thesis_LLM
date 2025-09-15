@@ -1,0 +1,4 @@
+;Adult Income;Customer Travel;California Housing;Health Stroke Prediction
+Train size;30260;640;13690;2249
+Test size;14904;315;6743;1108
+ML task type;Classification;Classification;Regression;Classification
